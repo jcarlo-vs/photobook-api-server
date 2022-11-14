@@ -1,0 +1,14 @@
+BACK END NOTES : 
+
+
+ ## UPLOADING IMAGE ON A SERVER : 
+	Cloudinary v2
+
+
+
+ ## SENDING EMAIL 
+	- NODE MAILER  = send the actual email
+	- ETHEREAL = For Testing SERVICE ONLY
+	- SEND GRID = Email Providers for production
+	EMAIL : ranalek0909@gmail.com
+	PASSWORD : Glcx0a~Xw4W8IRn#
