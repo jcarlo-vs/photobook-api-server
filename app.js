@@ -37,6 +37,10 @@ app.use(express.json())
 app.use(xss())
 app.use(fileUpload({ useTempFiles: true }))
 
+app.get('/', (req, res) => {
+	res.send('Welcome to Photobook API')
+})
+
 app.use('/api/v1/auth', authRouter)
 app.use('/api/v1/posts', postRouter)
 app.use('/api/v1/profile', userRouter)
