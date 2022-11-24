@@ -3,6 +3,9 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "app.js",
+	"engines": {
+		"node": "14.x"
+	},
 	"scripts": {
 		"start": "node app.js"
 	},
@@ -29,8 +32,5 @@
 	},
 	"devDependencies": {
 		"nodemon": "^2.0.20"
-	},
-	"engines": {
-		"node": "16.x"
 	}
 }
