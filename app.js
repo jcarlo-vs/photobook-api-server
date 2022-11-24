@@ -16,6 +16,7 @@ const fileUpload = require('express-fileupload')
 const morgan = require('morgan')
 const userRouter = require('./routes/userRouter')
 
+app.use(cors())
 app.set('trust proxy', 1)
 app.use(
 	rateLimiter({
@@ -31,7 +32,6 @@ cloudinary.config({
 	api_secret: process.env.CLOUD_API_SECRET,
 })
 
-app.use(cors())
 app.use(morgan('tiny'))
 app.use(express.json())
 app.use(xss())
